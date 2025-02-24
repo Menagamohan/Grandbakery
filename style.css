@@ -1,0 +1,61 @@
+.navbar {
+    justify-content: center;
+  }
+  .navbar-nav {
+    margin-left: 120px;
+    margin-right: 200px;
+    
+    text-align: center;
+  }
+  
+
+  @media (min-width: 600px){
+        
+    .animation
+    {
+        width: 100%;
+        height: 80%;
+        animation-name: demo;
+        animation-duration: 15s;
+        animation-iteration-count: infinite;
+        background-size: cover;
+        
+    }
+    @keyframes demo
+    {
+        0%{background-image: url(images/ani.avif);}
+        25%{background-image: url(images/ani-1.avif);}
+        50%{background-image: url(images/ani-3.avif);}
+        100%{background-image: url(images/ani-1.avif);}
+    }
+}
+
+.box-1{
+    position: absolute; 
+    z-index: -1; 
+  }
+  .box-2{
+    position: relative; 
+    z-index: 2; 
+  } 
+  .card-img-top:hover{
+    box-shadow: 5px 10px 12px gray;
+  }
+  .pic-1{
+    position: absolute; 
+    z-index: -1; 
+  }
+  .pic-2{
+    position: relative; 
+    z-index: 2; 
+    margin-left: 10px;
+  } 
+  .menu-1{
+    position: absolute; 
+    z-index: -1; 
+  }
+  .menu-2{
+    position: relative; 
+    z-index: 2; 
+  } 
+  
