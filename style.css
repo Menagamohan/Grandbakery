@@ -10,7 +10,26 @@
   .ms-3:hover{
     text-shadow: 5px 10px 12px gray;
   }
-  
+  /* @media screen and (min-width: 480px){
+        
+    .animation
+    {
+        width: 100%;
+        height: 80%;
+        animation-name: demo;
+        animation-duration: 15s;
+        animation-iteration-count: infinite;
+        background-size: cover;
+    }
+    @keyframes demo
+    {
+        0%{background-image: url(images/ani.avif);}
+        25%{background-image: url(images/ani-1.avif);}
+        50%{background-image: url(images/ani-3.avif);}
+        100%{background-image: url(images/ani-1.avif);}
+    }
+} */
+@media (min-width: 768px){
 .box-1{
     position: absolute; 
     z-index: -1; 
@@ -22,17 +41,17 @@
   .card-img-top:hover{
     box-shadow: 5px 10px 12px gray;
   }
-  
+  @media (max-width: 575.98px) {
   .pic-1{
     position: absolute; 
     z-index: -1; 
   }
-
+}
   .pic-2{
     position: relative; 
     z-index: 2; 
     margin-left: 10px;
-  }  
+  } 
 
   .menu-1{
     position: absolute; 
@@ -42,7 +61,7 @@
     position: relative; 
     z-index: 2; 
   } 
-
+}
   
 
 
