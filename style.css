@@ -41,15 +41,18 @@
   .card-img-top:hover{
     box-shadow: 5px 10px 12px gray;
   }
+  @media (max-width: 575.98px) {
   .pic-1{
     position: absolute; 
     z-index: -1; 
   }
+}
   .pic-2{
     position: relative; 
     z-index: 2; 
     margin-left: 10px;
   } 
+
   .menu-1{
     position: absolute; 
     z-index: -1; 
