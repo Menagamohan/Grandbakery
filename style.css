@@ -10,7 +10,7 @@
   .ms-3:hover{
     text-shadow: 5px 10px 12px gray;
   }
-  @media (min-width: 576px){
+  @media (min-width: 768px){
         
     .animation
     {
