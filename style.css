@@ -10,25 +10,15 @@
   .ms-3:hover{
     text-shadow: 5px 10px 12px gray;
   }
-  @media (min-width: 768px){
-        
-    .animation
-    {
+  @media (min-width: 767px) {
+    .animation {
         width: 100%;
-        height: 80%;
-        animation-name: demo;
-        animation-duration: 15s;
-        animation-iteration-count: infinite;
+        height: 100%; /* Make the animation container take full screen */
         background-size: cover;
+        background-image: url(images/ani.avif); /* Use a static background on mobile */
+        animation: none; /* Disable animation for mobile */
     }
-    @keyframes demo
-    {
-        0%{background-image: url(images/ani.avif);}
-        25%{background-image: url(images/ani-1.avif);}
-        50%{background-image: url(images/ani-3.avif);}
-        100%{background-image: url(images/ani-1.avif);}
-    }
-}
+  }
 @media (min-width: 768px){
 .box-1{
     position: absolute; 
