@@ -63,3 +63,103 @@
   } 
 }
   
+
+
+
+/* For devices with a max-width of 768px (Tablets and Mobile Portrait) */
+@media (max-width: 768px) {
+  /* Adjust the font size of the navbar */
+  .navbar-nav {
+      font-size: 18px;
+  }
+
+  /* Change the logo size in the navbar */
+  .navbar-brand img {
+      height: 70px;  /* Smaller logo */
+  }
+
+  /* Stack navbar items vertically */
+  .navbar-nav {
+      display: block;
+      text-align: center;
+  }
+
+  /* Adjust the text in the welcome section */
+  .box-2 h1 {
+      font-size: 1.5rem;  /* Smaller font size */
+  }
+
+  .box-2 p {
+      font-size: 1rem;
+  }
+
+  /* Adjust the menu icons size */
+  .card-img-top {
+      width: 80%;
+      height: auto;
+  }
+
+  /* Stack the images and text in box-3 */
+  .box-3 .row {
+      flex-direction: column;
+  }
+
+  .box-3 .col {
+      text-align: center;
+  }
+
+  /* Adjust padding and margins for smaller screens */
+  .box-4 .row {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  /* Adjust the footer layout */
+  .box-4 {
+      padding: 20px 0;
+  }
+
+  /* Make the contact section text size smaller */
+  .col p {
+      font-size: 0.9rem;
+  }
+
+  /* Change the background of footer to make it mobile friendly */
+  .box-4 {
+      background-color: #333;
+      color: white;
+  }
+}
+
+/* For mobile screens with a max-width of 480px */
+@media (max-width: 480px) {
+  /* Reduce navbar font size even further */
+  .navbar-nav {
+      font-size: 16px;
+  }
+
+  /* Make the logo even smaller */
+  .navbar-brand img {
+      height: 50px;
+  }
+
+  /* Stack images and text in box-3 */
+  .box-3 .row {
+      flex-direction: column;
+  }
+
+  /* Adjust the spacing and layout of menu icons */
+  .box-4 .row {
+      flex-direction: column;
+  }
+
+  /* Adjust card image size */
+  .card-img-top {
+      width: 100%;
+  }
+
+  /* Make contact details text size smaller */
+  .col p {
+      font-size: 0.8rem;
+  }
+}
