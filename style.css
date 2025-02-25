@@ -7,12 +7,9 @@
     
     text-align: center;
   }
-  
   .ms-3:hover{
     text-shadow: 5px 10px 12px gray;
   }
-  
-
   @media (min-width: 576px){
         
     .animation
@@ -23,7 +20,6 @@
         animation-duration: 15s;
         animation-iteration-count: infinite;
         background-size: cover;
-        
     }
     @keyframes demo
     {
@@ -33,7 +29,7 @@
         100%{background-image: url(images/ani-1.avif);}
     }
 }
-
+@media (min-width: 768px){
 .box-1{
     position: absolute; 
     z-index: -1; 
@@ -62,4 +58,5 @@
     position: relative; 
     z-index: 2; 
   } 
+}
   
