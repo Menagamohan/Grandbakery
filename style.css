@@ -15,7 +15,7 @@
     .animation
     {
         width: 100%;
-        height: 80%;
+        height: 0%;
         animation-name: demo;
         animation-duration: 15s;
         animation-iteration-count: infinite;
@@ -41,17 +41,19 @@
   .card-img-top:hover{
     box-shadow: 5px 10px 12px gray;
   }
+}
   @media (max-width: 575.98px) {
   .pic-1{
     position: absolute; 
     z-index: -1; 
   }
-}
+
   .pic-2{
     position: relative; 
     z-index: 2; 
-    margin-left: 10px;
+    /* margin-left: 10px; */
   } 
+
 
   .menu-1{
     position: absolute; 
@@ -61,8 +63,59 @@
     position: relative; 
     z-index: 2; 
   } 
-}
+  }
   
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Mobile screen adjustments */
+@media (max-width: 768px) {
+    .row {
+        display: block;
+    }
+
+    .col {
+        width: 100%;
+        padding: 15px;
+        text-align: left;
+    }
+
+    .col img {
+        max-width: 80%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    /* Adjust the font size for mobile devices */
+    p, h1 {
+        font-size: 14px;
+    }
+
+    .col p {
+        margin-bottom: 10px;
+    }
+
+    /* Adjust spacing between sections */
+    .row > .col {
+        margin-bottom: 20px;
+    }
+}
+
+
 
 
 
