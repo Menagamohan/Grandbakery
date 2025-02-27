@@ -396,3 +396,74 @@ ul.img_icon li {
   bottom: -9px;
   z-index: 25;
 }
+
+
+/* Default styles for larger screens */
+.footer {
+  background-color: #180552;
+  padding: 20px 0;
+}
+
+.footer .container {
+  width: 100%;
+}
+
+.footer .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer .col-lg-3,
+.footer .col-lg-2 {
+  padding: 10px;
+}
+
+.footer .logo2 img {
+  width: 100%; /* Make logo responsive */
+  max-width: 150px; /* Optional: you can adjust this as needed */
+}
+
+.footer .follow p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* Media Query for Mobile Devices (max-width: 767px) */
+@media (max-width: 767px) {
+  .footer .row {
+      flex-direction: column; /* Stack columns vertically */
+      align-items: center; /* Align columns to the center */
+      padding: 120px;
+  }
+
+  .footer .col-lg-3,
+  .footer .col-lg-2 {
+      width: 100%; /* Make each column take full width */
+      text-align: center; /* Center-align text */
+      margin-bottom: 20px; /* Add space between columns */
+  }
+
+  .footer .logo2 img {
+      max-width: 120px; /* Adjust logo size on mobile */
+  }
+
+  .footer .follow p {
+      font-size: 12px; /* Smaller text for mobile */
+      margin-top: 10px; /* Space between text and logos */
+  }
+
+  .footer h3 {
+      font-size: 16px; /* Adjust heading size */
+      margin-bottom: 10px;
+  }
+
+  .footer .link_icon {
+      padding: 0;
+  }
+
+  .footer .link_icon li {
+      font-size: 14px;
+      margin-bottom: 10px;
+  }
+}
