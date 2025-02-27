@@ -430,7 +430,7 @@ ul.img_icon li {
 }
 
 /* Media Query for Mobile Devices (max-width: 767px) */
-@media (max-width: 767px) {
+@media (max-width: 567px) {
   .footer .row {
       flex-direction: column; /* Stack columns vertically */
       align-items: center; /* Align columns to the center */
